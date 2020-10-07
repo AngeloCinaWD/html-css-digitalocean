@@ -24,8 +24,9 @@
 
 /* header */
 
-/* navbar */
-
+#mdnav {
+  display: none;
+}
 /* regole parte centrale */
 
 #sezione1, #sezione3, #sezione6 {
@@ -68,4 +69,35 @@
 
 footer {
   background-color: #010e28;
+}
+
+/* media query */
+
+@media all and (max-width: 992px) {
+
+  #mdnav {
+    display: initial;
+  }
+
+  #lgnav {
+    display: none;
+  }
+
+
+}
+
+@media all and (max-width: 768px) {
+
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  
+  .container {
+    width: 93%;
+    margin: 0 auto;
+  }
 }
