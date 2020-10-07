@@ -1,0 +1,71 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+
+[class*="col-"] {
+  min-height: 100px;
+  background-color: lightgreen;
+  border: solid 1px  #000;
+  padding: 2px;
+}
+
+/* .container {
+  background-color: red;
+  border: solid 1px  #000;
+} */
+
+/* regole pagina */
+
+/* header */
+
+/* navbar */
+
+/* regole parte centrale */
+
+#sezione1, #sezione3, #sezione6 {
+  background-color: #f3f5f9;
+}
+
+#sezione5, #sezione7 {
+  background-color: #0157ff;
+}
+
+/* regole jumbotron */
+
+#jumbotron {
+  background-color: #0060ff;
+}
+
+
+/* sezione 1 */
+
+
+/* sezione 2 */
+
+
+/* sezione 3 */
+
+
+/* sezione 4 */
+
+
+/* sezione 5 */
+
+
+/* sezione 6 */
+
+
+/* sezione 7 */
+
+
+/* footer */
+
+footer {
+  background-color: #010e28;
+}
