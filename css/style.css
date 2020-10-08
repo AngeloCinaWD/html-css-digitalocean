@@ -325,6 +325,40 @@ form input:nth-of-type(1), form input:nth-of-type(2) {
 
 /* sezione 5 */
 
+.città {
+  padding: 10px 10px;
+}
+
+#sezione5 .testo1, #sezione5 .testo4 {
+  color: white;
+}
+
+#sezione5 .testo4 {
+  padding-top: 4px;
+}
+
+#sezione5 a {
+  color:#00d7d2;
+  font-size: 12px;
+}
+
+.testspeed {
+  border-bottom: 1px solid white;
+}
+
+.città div:last-child {
+  border-bottom: none;
+}
+
+.speedtest {
+  text-align: right;
+  padding-right: 15px;
+}
+
+
+
+
+
 
 /* sezione 6 */
 
