@@ -103,6 +103,10 @@ header {
   background-color: #0157ff;
 }
 
+section {
+  padding: 40px 0;
+}
+
 /* regole jumbotron */
 
 #jumbotron {
@@ -150,14 +154,18 @@ form > * {
   font-weight: bold;
 }
 
-#button {
+button {
+  cursor: pointer;
+}
+
+#google {
   padding: 10px 0;
   border-bottom: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
   position: relative;
 }
 
-#button img {
+#google img {
   width: 7%;
   height: auto;
   position: absolute;
@@ -192,11 +200,37 @@ form input:nth-of-type(1), form input:nth-of-type(2) {
   margin-top: 10px;
 }
 
+#form a {
+  text-decoration: underline;
+}
 
 /* sezione 1 */
 
+#innovative {
+  text-align: center;
+  min-width: 100%;
+  color: grey;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%;
+  min-height: 77px;
+}
+
+#stories {
+  text-align: center;
+  margin-top: 40px;
+}
 
 /* sezione 2 */
+
+
 
 
 /* sezione 3 */
