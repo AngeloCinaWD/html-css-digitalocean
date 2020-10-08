@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+
 /* header */
 header {
   position: fixed;
@@ -151,10 +156,6 @@ form > * {
   font-size: 11px;
   color: white;
   font-weight: bold;
-}
-
-button {
-  cursor: pointer;
 }
 
 #google {
@@ -329,7 +330,7 @@ form input:nth-of-type(1), form input:nth-of-type(2) {
   padding: 10px 10px;
 }
 
-#sezione5 .testo1, #sezione5 .testo4 {
+#sezione5 .testo1, #sezione5 .testo4, #sezione7 .testo1 {
   color: white;
 }
 
@@ -355,15 +356,20 @@ form input:nth-of-type(1), form input:nth-of-type(2) {
   padding-right: 15px;
 }
 
-
-
-
-
-
-/* sezione 6 */
-
-
 /* sezione 7 */
+
+#sezione7 .testo1 {
+  margin-bottom: 20px;
+}
+
+#createaccount {
+  text-align: center;
+}
+
+#createaccount button {
+  color: #0157ff;
+  font-size: 12px;
+}
 
 
 /* footer */
