@@ -169,8 +169,9 @@ button {
   width: 7%;
   height: auto;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
 }
 
 #sign {
@@ -230,8 +231,55 @@ form input:nth-of-type(1), form input:nth-of-type(2) {
 
 /* sezione 2 */
 
+.testo1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #031b4e;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.testo2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5b6987;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+.testo3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #031b4e;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.testo4 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5b6987;
+  text-align: left;
+}
+
+#laterale {
+  border-left: 1px solid #5b6886;
+  color: #5b6886;
+  line-height: 200%;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+.apps {
+  width: 100%;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.immagine {
+  width: 25%;
+  height: auto;
+}
 
 /* sezione 3 */
 
